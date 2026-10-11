@@ -6,5 +6,5 @@ def softmax(logits: torch.Tensor) -> torch.Tensor:
     """
     max_logit = torch.max(logits, dim = -1, keepdim =True).values
     shifted = logits - max_logit
-    exps = torch.exp(shifted)
+    exps = shifted.exp()
     return exps  / exps.sum(dim = -1 , keepdim = True)
