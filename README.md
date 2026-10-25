@@ -70,6 +70,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Bellman Expectation Equation | The Bellman expectation equation is the cornerstone of policy evaluation in reinforcement learning. | https://www.tensortonic.com/problems/rl-bellman-expectation-equation |
 | Bellman Optimality Equation | Apply one Bellman optimality backup by maximizing expected immediate reward plus discounted next-state value. | https://www.tensortonic.com/problems/rl-bellman-optimality-equation |
 | Discounted Returns | Compute reverse-time discounted returns from a reward sequence using a configurable discount factor and terminal bootstrap. | https://www.tensortonic.com/problems/rl-discounted-returns |
+| Epsilon-Greedy Action Selection | Choose actions with epsilon-greedy exploration, deterministic greedy tie handling, and controlled random sampling. | https://www.tensortonic.com/problems/rl-epsilon-greedy-action-selection |
 | Monte Carlo Policy Evaluation | Estimate policy state values from complete sampled returns without requiring an environment transition model. | https://www.tensortonic.com/problems/rl-monte-carlo-policy-evaluation |
 | Softmax (Boltzmann) Exploration | Convert action values into a numerically stable Boltzmann exploration distribution controlled by temperature. | https://www.tensortonic.com/problems/rl-softmax-exploration |
 | TD(0) Value Update | Apply one TD(0) state-value update using immediate reward, discounted next-state value, and learning rate. | https://www.tensortonic.com/problems/rl-td-zero-update |
